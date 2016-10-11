@@ -6,8 +6,6 @@ import collections #
 
 # take in a csv
 
-
-
 # empty dictionary
 
 # for source in file:
@@ -18,7 +16,6 @@ import collections #
 # 	add to dicionary
 # 	set count to 1
 
-tups = []
 def loadDataSet(path='data'):
 	source_list=[]
 
@@ -35,7 +32,6 @@ def loadDataSet(path='data'):
 
 		else:
 			source_dict[address] = 1
-
 
 	return source_dict
 
